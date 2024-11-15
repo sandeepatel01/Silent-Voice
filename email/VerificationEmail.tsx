@@ -7,7 +7,6 @@ import {
   Row,
   Section,
   Text,
-  Button,
 } from "@react-email/components";
 
 interface VerificationEmailProps {
@@ -54,12 +53,9 @@ export default function VerificationEmail({
           </Text>
         </Row>
         {/* <Row>
-             <Button
-               href={`http://localhost:3000/verify/${username}`}
-               style={{ color: '#61dafb' }}
-             >
-               Verify here
-             </Button>
+        <Button href={`http://localhost:3000/verify/${username}`} style={{ color: '#61dafb' }} >
+                Verify here
+              </Button>
            </Row> */}
       </Section>
     </Html>
